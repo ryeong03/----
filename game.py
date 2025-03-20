@@ -93,7 +93,7 @@ screen.blit(score_text, (WIDTH // 4, HEIGHT // 2 + 20))
 pygame.display.flip()
 pygame.time.delay(2000)  # 🔥 2초 후 종료 (너무 오래 기다리지 않도록)
 
-# 🔥 Mac에서도 강제 종료 가능하도록 설정
+# 🔥 Mac에서도 강제 종료 가능하도록 
 pygame.event.post(pygame.event.Event(pygame.QUIT))  
 pygame.quit()
 exit()
